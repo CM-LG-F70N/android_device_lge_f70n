@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/f70n/rootdir/fstab.f70n:root/fstab.f70n \
     device/lge/f70n/rootdir/init.f70n.rc:root/init.f70n.rc \
-    device/lge/f70n/rootdir/init.baseband.sh:root/init.baseband.sh \
     device/lge/f70n/rootdir/init.f70n.usb.rc:root/init.f70n.usb.rc \
     device/lge/f70n/rootdir/ueventd.f70n.rc:root/ueventd.f70n.rc
 
