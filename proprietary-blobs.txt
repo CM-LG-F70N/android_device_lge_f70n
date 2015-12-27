@@ -11,7 +11,6 @@ etc/firmware/keymaster/keymaster.b03
 # Firmwares
 etc/firmware/leia_pfp_470.fw
 etc/firmware/leia_pm4_470.fw
-etc/firmware/a225p5_pm4.fw
 
 # Venus (media) firmware
 etc/firmware/venus.b01
@@ -27,6 +26,7 @@ etc/firmware/a225_pm4.fw
 etc/firmware/a300_pm4.fw
 etc/firmware/a330_pm4.fw
 etc/firmware/a225_pfp.fw
+etc/firmware/a225p5_pm4.fw
 etc/firmware/a300_pfp.fw
 etc/firmware/a330_pfp.fw
 
@@ -34,15 +34,21 @@ etc/firmware/a330_pfp.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_2_1.fw
+
+# Modem firmwares
+etc/firmware/dxhdcp2.b00
+etc/firmware/dxhdcp2.b01
+etc/firmware/dxhdcp2.b02
+etc/firmware/dxhdcp2.b03
+etc/firmware/dxhdcp2.mdt
+vendor/firmware/widevine.b00
+vendor/firmware/widevine.b01
+vendor/firmware/widevine.b02
+vendor/firmware/widevine.b03
+vendor/firmware/widevine.mdt
 
 # NFC Firmware
-etc/firmware/Signedrompatch_v20.bin
-etc/firmware/Signedrompatch_v21.bin
-etc/firmware/Signedrompatch_v24.bin
-etc/firmware/Signedrompatch_v30.bin
-etc/firmware/nfc_test.bin
-etc/firmware/libpn547_fw.so
+vendor/firmware/libpn547_fw.so
 
 # Audio
 etc/acdbdata/Bluetooth_cal.acdb
