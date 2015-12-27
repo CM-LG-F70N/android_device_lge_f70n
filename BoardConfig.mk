@@ -57,8 +57,8 @@ TARGET_BOOTLOADER_BOARD_NAME := f70n
 # Kernel image
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/f70n/mkbootimg.mk
-TARGET_KERNEL_SOURCE := kernel/lge/msm8x26
-TARGET_KERNEL_CONFIG := f70n_cm_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/msm8226
+TARGET_KERNEL_CONFIG := f70_cm_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=f70n androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
@@ -156,16 +156,14 @@ TW_INTERNAL_STORAGE_PATH := "/data/media"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_RECOVERY_SWIPE := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 BOARD_SUPPRESS_EMMC_WIPE := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
 RECOVERY_SDCARD_ON_DATA := true
 HAVE_SELINUX := true
 BOARD_HAS_NO_MISC_PARTITION := true
-#TW_NEVER_UNMOUNT_SYSTEM := true
-TW_NO_REBOOT_BOOTLOADER := true
-TW_CUSTOM_POWER_BUTTON := 116
-#TWRP_EVENT_LOGGING := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 
 # Enable Minikin text layout engine (will be the default soon)
@@ -183,7 +181,4 @@ include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
         device/lge/f70n/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-	timekeep.te
 
