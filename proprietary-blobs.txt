@@ -224,13 +224,9 @@ vendor/lib/libmm-hdcpmgr.so
 lib/libdashplayer.so
 vendor/lib/libmmosal.so
 vendor/lib/libmmparser.so
-vendor/lib/libmm-color-convertor.so
-vendor/lib/libI420colorconvert.so
 vendor/lib/libDivxDrm.so
 vendor/lib/libExtendedExtractor.so
 vendor/lib/libSHIMDivxDrm.so
-vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxWmaDec.so
@@ -299,7 +295,6 @@ lib/libwebviewchromium_plat_support.so
 bin/mm-pp-daemon
 vendor/lib/libdisp-aba.so
 vendor/lib/libmm-abl-oem.so
-vendor/lib/libmm-abl.so
 -bin/ptt_socket_app
 -lib/libqsap_sdk.so
 bin/ims_rtp_daemon
